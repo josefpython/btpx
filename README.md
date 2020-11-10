@@ -1,6 +1,6 @@
 # btpx
-    <h2>Recommended usage of BTPX</h2>
-    <u><b>Why should I use BTPX?</b></u> <br>
+<h2>Recommended usage of BTPX</h2>
+<u><b>Why should I use BTPX?</b></u> <br>
     A lot of people on the internet have passwords that are easily crackable using dictionary / bruteforce attacks. BTPX lets you create a complicated and almost non-crackable password that you can access while
     still only having to remember the old one you had. Lets say your old password was "animeisgay". According to howsecureismypassword.net, this password would have taken only 58 minutes to be guessed by a computer.
     But if you decode it to base64, your new password will be "YW5pbWVpc2dheQ==". This one would have taken 1 TRILLION YEARS for a computer to guess it! But you still only have to remember the basic phrase from before. <br>
