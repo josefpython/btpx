@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+     <head>
+
+         <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+        .popup_container {
+            width: 250px;
+            min-height: 150px;
+            max-height: 300px;
+        }
+        div {
+            padding: 20px;
+        }
+        input {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        button {
+            margin-top: 3px;
+            background-color: #4c8bf5;
+            color: white;
+            border: none;
+            text-align: center;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 4px;
+            transition-duration: 0.2s;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            border: 2px solid #4c8bf5;
+        }
+
+        .warn {
+            font-size: 11px;
+            margin-bottom: 10px;
+        }
+
+        .copy {
+            margin-left: 10px;
+        }
+
+        a:visited {
+            color:#4c8bf5;        
+        }
+
+
+        
+        </style>
+
+     </head>
+
+<body>
+
+
+<div class="popup_container">
+    
+    Enter your encoded phrase <br>
+    <input type="password" id="pw_phrase"> <button id="show"> Show </button> <br>
+    What are you logging into  <br>
+    <input type="text" id="pw_sys" value=""> <button id="test">Auto</button> <br> <input class="checkbox" type="checkbox" id="autoCopy" checked> Copy result into clipboard <br>
+    <button id="gen"> Generate password </button> <button class="showHelp" id="showHelp">?</button>
+    <p id="gen_text"> BTPX by <b><a href="https://twitter.com/defjosef" target="_blank">esxp </a> </b>  </p> 
+
+    
+    <p id="warn" class="warn" style="display: none;">The password generator will not work if you use charactes outside the <a href="https://www.w3schools.com/charsets/ref_html_ascii.asp#:~:text=ASCII%20is%20a%207%2Dbit,are%20all%20based%20on%20ASCII." target="_blank">Ascii char. list!</a> <br> 
+    Please keep in mind, unlike the system input, the password input is CASE SENSTITIVE! <br>
+    For more help click <a href="help.html">HERE </a></p> <p> </p>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+
+</html>
+
