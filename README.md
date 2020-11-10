@@ -1,5 +1,5 @@
 # btpx
-<h1>a simple chrome extension for safer passwords using base64</h1>
+<h3>a simple chrome extension for safer passwords using base64</h3>
 
 <h2>Recommended usage of BTPX</h2>
 <u><b>Why should I use BTPX?</b></u> <br>
