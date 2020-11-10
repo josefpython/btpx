@@ -1,4 +1,6 @@
 # btpx
+<h1>a simple chrome extension for safer passwords using base64</h1>
+
 <h2>Recommended usage of BTPX</h2>
 <u><b>Why should I use BTPX?</b></u> <br>
     A lot of people on the internet have passwords that are easily crackable using dictionary / bruteforce attacks. BTPX lets you create a complicated and almost non-crackable password that you can access while
