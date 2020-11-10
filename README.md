@@ -14,4 +14,3 @@
     <u><b>Possible safety concerns</b></u> <br>
     "Well do YOU have our password stored somewhere?" Absolutely not. The only thing that happens to your password is that it gets decoded. This all happens on your computer and no information travel outside of it.
     Also, this is an open source project so if you still dont trust us, you can always check by inpecting the extension ;) <br>
-    If you have any further questions, you can send and email to us at <a href="mailto:jayiikdev@gmail.com">jayiikdev@gmail.com</a>
